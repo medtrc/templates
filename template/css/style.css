@@ -1,0 +1,179 @@
+/* 
+AJST INFO
+All Rights Reserved To ©TRC
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #e6e6e6;
+}
+
+body {
+	margin: 1em 10%;
+	padding: 1em 3em;
+	font: 80%/1.4 tahoma, arial, helvetica, lucida sans, sans-serif;
+	background: #fbfbfb;
+	position: relative;
+	border-radius:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;	
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	
+}
+
+
+#head {
+	margin-bottom: 1.8em;
+	margin-top: 1.8em;
+	padding-bottom: 0em;
+	border-bottom: 1px solid #999;
+	height: 125px;
+	text-align:center;
+	background: url() 0 0 no-repeat;
+}
+
+#content
+{
+	color:#555;
+}
+
+#foot {
+	text-align: center;
+	margin-top: 1.8em;
+	border-top: 1px solid #999;
+	padding-top: 1em;
+	font-size: 0.85em;
+	
+}
+
+#foot li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0 ;
+}
+
+.text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.float-left{float:left;}
+.float-right{float:right;}
+.container{padding:5px; margin:auto; margin-top:2px; margin-bottom:2px;}
+
+/********************************************************/
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #3298fe;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #3674b2;
+	text-decoration: underline;
+}
+
+.version {
+	position: absolute;
+	right: 4em;
+	top: 145px;
+	font-size: 0.85em;
+}
+.version li {
+	display: inline;
+}
+
+
+#title {
+	color:#666;
+	font-size:83px;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    font-family: 'Open Sans', sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+input
+{
+	background-color: #fbfbfb;
+	border: 2px solid #555;
+	padding: 10px;
+	font-size: 30px;
+	color: #555;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+input:focus{
+  border-color: hsla(206,100%,60%,.3) hsla(206,76%,52%,.3) hsla(204,100%,40%,.3);	
+}
+
+button {
+	margin-left:10px;
+	width:64px;
+	height:64px;
+	border-radius:50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;	
+	background-color:#fbfbfb;
+	border:2px solid #555;
+	color:#555;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+    transition-property: background-color, border-color, box-shadow;
+    transition-duration: 200ms;	
+}
+
+
+button:hover {
+	color:#eee;
+	border:0px solid #eee;
+	background-color:#3298fe;
+
+}
+
+button:active{
+	box-shadow:inset 0 2px 3px rgba(0,0,0,.1);
+	background-color:#3674b2;
+	top:1px;
+	
+}
+
+
+/* --------------- Responsive ------------------- */
+
+@media (max-width:950px)
+{
+#title{ font-size:52px; letter-spacing: 5px;}
+input{ width:60%; font-size:20px; }
+button { margin-top:5px; width:50px; height:50px;}
+#content{ margin-left:0px; margin-right:0px;}
+}
+
+
+@media (max-width:570px)
+{
+#title{	font-size:40px;	}
+input{ width:100%; font-size:20px; }
+}
+
+@media (min-width:470px)
+{
+#mob{ display:none; }
+}
+
+
